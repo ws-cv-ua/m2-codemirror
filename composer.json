@@ -1,0 +1,27 @@
+{
+    "name": "ws-cv-ua/m2-codemirror",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "codemirror/codemirror": "v3.12"
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/codemirror/codemirror.git",
+            "type": "git"
+        }
+    ],
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wscvua\\CodeMirror\\": ""
+        }
+    }
+}

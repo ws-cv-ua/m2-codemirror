@@ -1,6 +1,6 @@
 {
     "name": "ws-cv-ua/m2-codemirror",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "N/A",
     "type": "magento2-module",
     "require": {
